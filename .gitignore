@@ -1,0 +1,7 @@
+# Virtual enviroments
+
+.venv
+
+# credenciais
+
+.env
