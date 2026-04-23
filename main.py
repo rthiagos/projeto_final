@@ -9,4 +9,8 @@ db_password = os.getenv("DB_PASSWORD")
 api_key = os.getenv("API_KEY")
 
 print(f"Conectando em {db_host} com usuário {db_user}")
-print("Credenciais carregadas com sucesso!")
+
+if db_host and db_user:
+    print("Credenciais carregadas com sucesso!")
+else:
+    print("Credenciais não inseridas")
